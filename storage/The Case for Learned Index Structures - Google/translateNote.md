@@ -1,4 +1,4 @@
-## The Case for Learned Index Structures
+## THe Case for Leaned Index Structures
 |Author|Ins|Email|
 |:------------- |:---------------:| -------------:|
 | Tim Kraska| MIT| kraska@mit.edu|
@@ -32,3 +32,10 @@ B树必须要预先排序的数据才能有用，查询新数据时需要重新�
 #### 2.1  What Model Complexity Can We Afford? A Back-Of-The-Envelope Calculation
 
 能承受什么样的模型复杂度？来毛估估一下。
+这段总而言之用GPU/TPU很快，第二段没怎么看懂其实，不了解TPU特性。日后再补理解
+
+#### 2.2 Range Index Models are CDF models
+
+psCDF好像就是分布函数
+意思就是范围索引模型就是一个分布函数的问题。
+
